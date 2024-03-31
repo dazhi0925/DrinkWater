@@ -17,7 +17,7 @@ struct ContentView: View {
                 Image("background")
                     .resizable()
                     .scaledToFit()
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .clipShape(Rectangle())
                     .opacity(0.6)
 
                 
