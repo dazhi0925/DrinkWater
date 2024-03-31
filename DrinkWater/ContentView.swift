@@ -18,7 +18,7 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                    .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+                    .opacity(0.6)
 
                 
                 Image(systemName: isWatered ? "crown.fill":"eyes")
